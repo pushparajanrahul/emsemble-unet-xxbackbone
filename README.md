@@ -148,6 +148,8 @@ We performed grid search to find the optimal combination of weights for the ense
 - The ensemble technique did not significantly outperform individual models, possibly due to imbalanced model contributions.
 - Further experimentation with weight optimization and model architectures may improve segmentation accuracy.
 
+## Prediction
+![image](https://github.com/pushparajanrahul/ensemble-segmentation/assets/124497777/8222bf84-ce9b-4f89-8056-76185b899ece)
 
 
 ## License
