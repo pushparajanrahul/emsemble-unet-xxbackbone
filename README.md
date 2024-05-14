@@ -8,7 +8,7 @@ This repository contains an ensemble technique for medical image segmentation us
 - [Usage](#usage)
 - [Installation](#installation)
 - [Requirements](#requirements)
-- [Code Structure](#Code Structure)
+- [Code Structure](#Code-Structure)
 - [Data](#data)
 - [Usage](#Usage)
 - [Result](#result)
@@ -52,7 +52,7 @@ Ensure you have the following dependencies installed:
 - NumPy
 - pandas
 
-## Code Structure
+## Code-Structure
 
 The repository has the following structure:
 
