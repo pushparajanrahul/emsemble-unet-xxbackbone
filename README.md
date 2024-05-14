@@ -8,9 +8,12 @@ This repository contains an ensemble technique for medical image segmentation us
 - [Usage](#usage)
 - [Installation](#installation)
 - [Requirements](#requirements)
+- [Code Structure](#CodeStructure)
 - [Data](#data)
-- [Models](#models)
-- [Examples](#examples)
+- [Usage](#Usage)
+- [Result](#result)
+- [Conclusion](#conclusion)
+- [Prediction](#prediction)
 - [License](#license)
 
 ## Overview
@@ -122,7 +125,7 @@ batch_size=8
 ```
 
 
-## Evaluation Metrics
+### Evaluation Metrics
 We evaluated the performance of individual models and the ensemble technique using the Intersection over Union (IOU) score on a test dataset. The IOU score measures the overlap between predicted and ground truth masks, providing insight into segmentation accuracy.
 
 ### Individual Model Performance
@@ -137,7 +140,7 @@ We evaluated the performance of individual models and the ensemble technique usi
 - **Weighted Average Ensemble**:
   - IOU Score: 0.1189
 
-## Weight Optimization
+### Weight Optimization
 We performed grid search to find the optimal combination of weights for the ensemble technique. The maximum IOU score of 0.1629 was obtained with the following weights:
 - Model 1: 0.6
 - Model 2: 0.5
