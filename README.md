@@ -26,7 +26,7 @@ To use the ensemble technique for medical image segmentation:
 3. Prepare your medical image dataset (see [Data](#data)).
 4. Train or load pre-trained semantic segmentation models (see [Models](#models)).
 5. Modify the `ensemble_segmentation.py` script to specify the models and their weights in the ensemble.
-6. Run the `ensemble_segmentation.py` script to perform segmentation on your images.
+6. Run the `ensemble_segmentation.py` script to perform segmentation on ChestXDet dataset.
 
 ## Installation
 
