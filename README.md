@@ -52,16 +52,19 @@ Ensure you have the following dependencies installed:
 ## Data
 
 You can use your own medical image dataset or obtain one from public repositories. Organize your dataset in the following structure:
-
-data/
-    ├── train_images/
-    │   ├── image1.png
-    │   ├── image2.png
-    │   └── ...
-    └── train_masks/
-        ├── mask1.png
-        ├── mask2.png
-        └── ...
+```
+ChestXDet
+├── ChestXDet_Metainformations
+│   └── ChestX-Det-Dataset-main
+│       └── pre-trained_PSPNet
+│           └── ptsemseg
+├── test_data
+│   ├── mask
+│   └── test
+└── train_data
+    ├── mask
+    └── train
+```
 
 
 Ensure that the images and corresponding masks are properly aligned and preprocessed.
