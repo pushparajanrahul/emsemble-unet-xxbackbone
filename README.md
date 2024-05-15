@@ -1,4 +1,4 @@
-# Medical Image Segmentation Ensemble
+# Ensemble Method for Medical Image Segmentation with Unet
 
 This repository contains an ensemble technique for medical image segmentation using semantic segmentation models with different backbones. The ensemble approach combines predictions from multiple models to improve segmentation accuracy.
 
