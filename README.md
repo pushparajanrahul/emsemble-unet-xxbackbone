@@ -18,7 +18,7 @@ This repository contains an ensemble technique for medical image segmentation us
 
 ## Overview
 
-Medical image segmentation plays a crucial role in various healthcare applications, including disease diagnosis and treatment planning. This project aims to enhance the accuracy of medical image segmentation by combining predictions from multiple semantic segmentation models with different backbones. The ensemble technique aggregates the outputs of individual models, leveraging their diverse strengths to achieve better segmentation results.
+Medical image segmentation plays a crucial role in various healthcare applications, including disease diagnosis and treatment planning. This project aims to enhance the accuracy of medical image segmentation by combining predictions from Unet baseline with different backbones ( Resnet34, VGG-16, Efficientnet-B4) . The ensemble technique aggregates the outputs of individual models, leveraging their diverse strengths to achieve better segmentation results.
 
 ## Usage
 
